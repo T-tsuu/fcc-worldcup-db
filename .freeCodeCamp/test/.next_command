@@ -1,0 +1,14 @@
+clear
+ls --color=auto
+psql --username=freecodecamp --dbname=postgres
+chmod +x insert_data.sh
+chmod +x queries.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+queries.sh
+./queries.sh
