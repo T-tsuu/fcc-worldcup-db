@@ -12,3 +12,9 @@ chmod +x queries.sh
 ./insert_data.sh
 queries.sh
 ./queries.sh
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+ls --color=auto
+ls --color=auto
+git remote set origin https://github.com/T-tsuu/fcc-worldcup-db.git
+git remote set-url origin https://github.com/T-tsuu/fcc-worldcup-db.git
+git push -u origin main
